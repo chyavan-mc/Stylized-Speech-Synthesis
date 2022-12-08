@@ -12,6 +12,7 @@ if __name__ == "__main__":
     CONFIG.set("files", "base_data_spectro", "../data/voice_data_image.pkl")
     CONFIG.set("files", "train_test_data", "../data/train_test.npy")
     CONFIG.set("files", "reconst_train_test_data", "../data/reconstruction_train_test.npy")
+    CONFIG.set("files", "meta_data", "../data/vox1_meta.csv")
     
     CONFIG.set("files", "recog_model", "../data/models/recognition_model")
     CONFIG.set("files", "recog_history", "../data/models/recognition_history.csv")
