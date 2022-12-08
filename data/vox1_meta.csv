@@ -1,5 +1,6 @@
 VoxCeleb1 ID	VGGFace1 ID	Gender	Nationality	Set
-id10001	A.J._Buckley	m	Ireland	dev
+id10000	Google_Assistant	f	NA	NA
+id10001	Joydeep_Ghosh	m	NA	NA
 id10002	A.R._Rahman	m	India	dev
 id10003	Aamir_Khan	m	India	dev
 id10004	Aaron_Tveit	m	USA	dev
