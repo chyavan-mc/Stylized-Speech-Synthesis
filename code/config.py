@@ -11,9 +11,12 @@ if __name__ == "__main__":
     CONFIG.set("files", "base_data", "../data/voice_data.csv")
     CONFIG.set("files", "base_data_spectro", "../data/voice_data_image.pkl")
     CONFIG.set("files", "train_test_data", "../data/train_test.npy")
+    CONFIG.set("files", "reconst_train_test_data", "../data/reconstruction_train_test.npy")
     
     CONFIG.set("files", "recog_model", "../data/models/recognition_model")
     CONFIG.set("files", "recog_history", "../data/models/recognition_history.csv")
+    
+    CONFIG.set("files", "reconst_models", "../data/models/reconstruction_models/")
 
     with open(os.path.join(current_dir, 'config.ini'), 'w') as configfile:
         CONFIG.write(configfile)
